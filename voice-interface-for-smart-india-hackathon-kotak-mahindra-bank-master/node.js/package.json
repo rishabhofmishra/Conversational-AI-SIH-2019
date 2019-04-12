@@ -1,0 +1,25 @@
+{
+  "name": "sih-voice-interface",
+  "version": "1.0.0",
+  "description": "A voice interface for kotak mahindra bank",
+  "main": "app.js",
+  "scripts": {
+	"start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node.js"
+  ],
+  "author": "harshitsinghai77",
+  "license": "ISC",
+  "dependencies": {
+    "@vitalets/google-translate-api": "^2.7.0",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "node-fetch": "^2.3.0"
+  },
+  "engines": {
+    "node": "10.x"
+  }
+}
